@@ -1,6 +1,6 @@
 ## VRChat Creator Companion 修改版(以下简称VCC)
 
-- 该项目依赖[NEKO-PARA-JS注入型框架]((https://github.com/nanhui233/NEKO-PARA-JS-Framework) "NEKO-PARA-JS注入型框架")制作
+- 该项目依赖[NEKO-PARA-JS注入型框架](https://github.com/nanhui233/NEKO-PARA-JS-Framework "NEKO-PARA-JS注入型框架")制作
 - 完善了部分VCC的功能
 - 此项目将会随着NEKO-PARA-JS一起完善
 
