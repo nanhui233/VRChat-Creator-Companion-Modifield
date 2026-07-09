@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="description" content="The VRChat Creator Companion" />
+		<link rel="apple-touch-icon" href="/icon.png" />
+		<link rel="manifest" href="/manifest.json" />
+		<title>VRChat Creator Companion</title>
+		<script>
+			(() => {
+				window.API_URL = '{{API_URL}}';
+				if (window.API_URL.includes('API_URL')) {
+					window.API_URL = null;
+				}
+			})();
+		</script>
+		<script type="module" crossorigin src="/assets/index-066158fc.js"></script>
+		<link rel="stylesheet" href="/assets/index-ece89820.css">
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+		<button onclick="window.open('steam://run/438100', '_self')" style="
+        position: fixed; 
+        bottom: 24px; 
+        right: 24px; 
+        z-index: 9999; 
+        background: #0F91A9; 
+        border: none; 
+        color: white; 
+        padding: 10px 28px; 
+        border-radius: 2px; 
+        font-weight: bold; 
+        font-size: 16px;
+        cursor: pointer; 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        transition: transform 0.2s;
+      " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+			启动 VRChat
+		</button>
+		<script src="./injector/main.js"></script>
+		<script src="./mods/thanks/main.js"></script>
+	</body>
+</html>
